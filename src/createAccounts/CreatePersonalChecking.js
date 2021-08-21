@@ -48,7 +48,7 @@ class CreatePersonalChecking extends Component {
   create = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8080/user/personalchecking", this.state, {
+      .post("http://localhost:3000/user/personalchecking", this.state, {
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",

@@ -41,6 +41,7 @@ function Footer(props) {
           </div>
         </div>
       </div>
+      <div>
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
@@ -49,6 +50,7 @@ function Footer(props) {
             </Link>
           </div>
           <small class="group-name"> © 2021 MeritBank </small>
+          
           <div class="social-icons">
 
             <Link
@@ -94,6 +96,7 @@ function Footer(props) {
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 }
